@@ -1,3 +1,3 @@
-FROM ngnix:latest
+FROM nginx:latest
 
-COPY index.html /user/share/ngnix/html
+COPY index.html /user/share/nginx/html
